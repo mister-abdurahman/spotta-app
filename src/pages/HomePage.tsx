@@ -31,7 +31,7 @@ export const HomePage = () => {
     navigate("/all-reviews", { state: { address: search } });
   }
   return (
-    <div className="bg-bg_white h-screen overflow-hidden sm:px-16 px-8">
+    <div className="bg-bg_white sm:h-screen overflow-hidden sm:px-16 px-8">
       <Header />
 
       <main className="flex flex-col xl:flex-row xl:justify-between sm:justify-normal sm:h-full xl:max-h-full relative">
@@ -67,7 +67,7 @@ export const HomePage = () => {
           </div>
         </div>
         <div
-          className="shadow-box basis-[46%] overflow-scroll bg-slate-200 px-3 py-2 grid gap-3 xl:grid-cols-2 lg:grid-cols-3 mx-auto xl:mx-0 grid-cols-1 sm:grid-cols-2 sm:mt-20 mt-12 xl:mt-auto
+          className="h-full shadow-box basis-[46%] overflow-scroll bg-slate-200 px-3 py-2 grid gap-3 xl:grid-cols-2 lg:grid-cols-3 mx-auto xl:mx-0 grid-cols-1 sm:grid-cols-2 sm:mt-20 mt-12 xl:mt-auto
         "
         >
           {dummyReviews.map((review: any) => (
