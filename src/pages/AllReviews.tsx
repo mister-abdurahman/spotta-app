@@ -5,7 +5,6 @@ import { IoIosArrowForward } from "react-icons/io";
 import { dummyReviews, dummyWorkPlaces } from "../data/dummyData";
 import { Review } from "../components/Review";
 
-import img from "../assets/react.svg";
 import avatar1 from "../assets/avatar1.png";
 import placeholder from "../assets/placeholder.png";
 import placeholder1 from "../assets/placeholder2.png";
@@ -15,9 +14,7 @@ import Modal from "../components/Modal";
 import { useLocation, useNavigate } from "react-router-dom";
 import Select from "react-select";
 import makeAnimated from "react-select/animated";
-import { StarRating } from "../components/StarRating";
 import DynamicStarRating from "../components/DynamicStarRating";
-import UseCloseModal from "../hooks/useCloseModal";
 
 const options = [
   { value: "ParkingLot", label: "ParkingLot" },
